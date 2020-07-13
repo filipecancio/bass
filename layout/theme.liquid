@@ -38,7 +38,9 @@
   {% endif %}
 
   <main role="main">
+    {% section 'header' %}
     {{ content_for_layout }}
+    {% section 'footer' %}
   </main>
 </body>
 </html>
